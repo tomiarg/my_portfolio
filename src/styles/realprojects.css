@@ -1,0 +1,61 @@
+.realProjects__heading{
+    color:white;
+}
+p{
+    color:var(--blanco)
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.card{
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.card:first-of-type{
+    margin-bottom: 0;
+}
+.card__img{
+    height: 22rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-bottom: 1rem;
+    transition: transform 1s;
+}
+.card__img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.card__link{
+    background-color: var(--celeste);
+    display: inline-block;
+    width: 100% ;
+    margin: .2rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 1rem;
+    transition: background-color 3s;
+}
+.card__link:hover{
+    background-color:#80c3f0;
+}
+.card__link a:hover{
+    color:white;
+}
+
+.card__head{
+    color: var(--celeste);
+    padding: .1rem 0 .1rem 0;
+    margin: 0;
+}
+.card__tecn{
+    display: flex;
+    gap: 2rem;
+}

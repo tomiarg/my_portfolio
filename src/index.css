@@ -1,0 +1,55 @@
+:root {
+    --blanco: #c9c9c9;
+    --celeste: #0a66c2;
+    --negro: #111111;
+    --gris: #343A40;
+    --verde:#9af19a;
+
+    --fuentePrincipal: 'Raleway', sans-serif;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background-color: var(--gris);
+}
+h1, h2, h3 {
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 1rem 0 4rem 0;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 3.8rem;
+}
+h3 {
+    font-size: 2.8rem;
+}
+a {
+    text-decoration: none;
+    color: var(--blanco);
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+li{
+    list-style: none;
+}
+.contenedor{
+    padding: 0 7rem 0 7rem;
+}
+.celeste{
+    color:var(--celeste)
+}

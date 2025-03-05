@@ -8,7 +8,7 @@ import rock from "../assets/img/cssRock.png"
 import cafe from "../assets/img/cafePractice.png"
 import front from "../assets/img/frontEnd.png"
 import mern from "../assets/img/reactMERN.png"
-
+import journal from "../assets/img/journalApp.png"
 
 
 export const baseDatos = [
@@ -93,13 +93,22 @@ export const baseDatos = [
     },
     {
         id: 10,
-        name:"react MERN",
+        name:"React MERN",
         image:mern,
         link:"https://react-mern-backend-production-0bf1.up.railway.app/auth/Login",
         technologies: "MERN",
         project: false
         
+    },
+    {
+        id:11,
+        name:"React Firebase",
+        image: journal,
+        link:"https://super-concha-8869fb.netlify.app",
+        technologies: "React + Firebase",
+        project: false
     }
+
 
 
 ]

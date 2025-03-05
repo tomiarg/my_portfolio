@@ -3,7 +3,7 @@ import "../styles/header.css"
 import LinkedinSVG from '../assets/linkedinSVG'
 import MailSVG from '../assets/MailSVG'
 import WhatsappSVG from '../assets/WhatsappSVG'
-import tomiChina from "../assets/img/tomiImg2.png"
+import tomiChina from "../assets/img/tomi-iii.png"
 
 
 export const Header = () => {
